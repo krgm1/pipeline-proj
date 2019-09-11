@@ -1,5 +1,5 @@
 pipeline {
-	agent wind-node
+	agent master
 	stages {
 		stage('---clean---'){
 			steps {
